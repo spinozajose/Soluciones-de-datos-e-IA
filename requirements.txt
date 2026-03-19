@@ -1,0 +1,12 @@
+# --- Core y Servidor ---
+python-dotenv==1.0.1      # Gestión de variables de entorno (.env)
+psycopg2-binary==2.9.9    # Driver para conexión a PostgreSQL (Supabase)
+
+# --- Análisis de Datos e IA ---
+pandas==2.2.1             # Manipulación de estructuras de datos
+numpy==1.26.4             # Cálculos numéricos
+scikit-learn==1.4.1       # Algoritmos de Machine Learning básicos
+
+# --- Utilidades y Pruebas ---
+requests==2.31.0          # Peticiones HTTP (Scraping o APIs externas)
+pytest==8.0.2             # Framework para pruebas unitarias (CI/CD)
