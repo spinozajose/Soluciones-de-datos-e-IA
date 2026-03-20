@@ -3,8 +3,8 @@ FROM python:3.11-slim
 
 # 2. Configuración de variables de entorno
 # Previene que Python escriba archivos .pyc y asegura salida de logs inmediata
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
 # 3. Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /app
